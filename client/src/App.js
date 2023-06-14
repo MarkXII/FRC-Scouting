@@ -9,7 +9,7 @@ import Web3 from 'web3';
 import './RobotForm.js';
 import './ScoutForm.js';
 
-const AuctionContractAddress = "0.8.9+commit.e5eed63a.Emscripten.clang";
+const ContractAddress = "0xEEf4F2AaCa997a48862A97742a737E30Cc922d54";
 const emptyAddress = '0x0000000000000000000000000000000000000000';
 
 
@@ -29,7 +29,7 @@ function App() {
     // const [report, setReport] = useState("");
     // const [win, setWin] = useState(false);
   
-    // async loadWeb3() {
+    // async loadWeb3() 22{
     //   // Metamask
     //   if (window.ethereum) {
     //     window.web3 = new Web3(window.ethereum);
